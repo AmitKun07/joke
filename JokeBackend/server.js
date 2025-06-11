@@ -1,9 +1,9 @@
  const express = require("express");
-const mongoose = require("mongoose");
+const mongoose = require("mongoose");   // database management....
 const cors = require("cors");
-require("dotenv").config();
+require("dotenv").config();  // environmental variable...
 
-const app = express();
+const app = express();           // express framework
 app.use(express.json());
 app.use(cors());
 
